@@ -65,8 +65,14 @@
 		<dc:creator id="author">Solomon Northup</dc:creator>
 		<meta property="file-as" refines="#author">Northup, Solomon</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Solomon_Northup</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50022819</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50022819</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="editor-1">David Wilson</dc:contributor>
+		<meta property="file-as" refines="#editor-1">Wilson, David</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/David_Wilson_(New_York_politician)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n86832510</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#editor-1" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
