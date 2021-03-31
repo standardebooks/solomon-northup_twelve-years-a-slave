@@ -107,6 +107,16 @@ abbr.era{
 }
 /* end of abbreviations */
 
+/* bridgeheads */
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
+}
+/* end of bridgeheads */
+
 /* All dedications */
 section[epub|type~="dedication"]{
 	text-align: center;
