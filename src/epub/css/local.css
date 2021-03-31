@@ -1,8 +1,17 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+#chapter-19 blockquote > header > p:last-of-type{
+	text-align: initial;
+	text-indent: 0;
+}
+
+/* third line necessary because later
+	#appendix-b blockquote > header > p:last-of-type
+is more specific */
 #appendix-a blockquote > header > p,
-#appendix-b blockquote:first-of-type > header p{
+#appendix-b blockquote:first-of-type > header > p,
+#appendix-b blockquote:first-of-type > header > p:last-of-type{
 	margin-bottom: 1em;
 	text-align: center;
 	text-indent: 0;
@@ -17,23 +26,27 @@
 	margin-bottom: 2em;
 }
 
+/* headers should be left-justified */
 #appendix-b blockquote > header,
 #appendix-c blockquote > header{
 	margin-bottom: 1em;
 	text-align: initial;
 }
 
+/* except the last line */
 #appendix-b blockquote > header > p:last-of-type,
 #appendix-c blockquote > header > p:last-of-type{
 	text-indent: 1em;
 }
 
+/* first line after the signature should be left-justified */
 #appendix-b blockquote > footer > p:nth-of-type(2),
 #appendix-c blockquote:first-of-type > footer > p:nth-of-type(4){
 	text-align: initial;
 	text-indent: 0;
 }
 
+/* remaining lines should be indented */
 #appendix-b blockquote > footer > p:last-of-type,
 #appendix-c blockquote:first-of-type > footer > p:nth-of-type(5),
 #appendix-c blockquote:first-of-type > footer > p:last-of-type{
