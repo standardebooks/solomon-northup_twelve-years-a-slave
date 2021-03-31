@@ -73,10 +73,10 @@
 		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n86832510</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
 		<meta property="se:role" refines="#editor-1" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">John Simpson</dc:contributor>
+		<meta property="file-as" refines="#artist">Simpson, John</meta>
+		<meta property="se:name.person.full-name" refines="#artist">John Philip Simpson</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Simpson_(artist)</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Richard J. Shiffer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shiffer, Richard J.</meta>
