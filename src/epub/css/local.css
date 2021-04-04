@@ -2,9 +2,8 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* location-specific */
-#chapter-19 blockquote > header > p:last-of-type{
-	text-align: initial;
-	text-indent: 0;
+#dedication > hr{
+	margin-bottom: 1em;
 }
 
 #chapter-22 blockquote:first-of-type + p{
@@ -49,6 +48,7 @@ is more specific than second selector */
 }
 
 /* in general, these headers should be left-justified */
+#dedication > blockquote,
 #appendix-b blockquote > header,
 #appendix-c blockquote > header{
 	margin-bottom: 1em;
@@ -62,6 +62,7 @@ is more specific than second selector */
 }
 
 /* first line after the signature should be left-justified */
+#chapter-19 blockquote > header > p:last-of-type,
 #appendix-b blockquote > footer > p:nth-of-type(2),
 #appendix-c blockquote:first-of-type > footer > p:nth-of-type(4){
 	text-align: initial;
