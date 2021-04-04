@@ -1,6 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* location-specific */
 #chapter-19 blockquote > header > p:last-of-type{
 	text-align: initial;
 	text-indent: 0;
@@ -20,9 +21,16 @@
 	margin-bottom: 1em;
 }
 
-/* third line necessary because later
+#appendix-a blockquote,
+#appendix-b blockquote,
+#appendix-c blockquote{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* third selector necessary because later
 	#appendix-b blockquote > header > p:last-of-type
-is more specific */
+is more specific than second selector */
 #appendix-a blockquote > header > p,
 #appendix-b blockquote:first-of-type > header > p,
 #appendix-b blockquote:first-of-type > header > p:last-of-type{
@@ -35,12 +43,12 @@ is more specific */
 	text-align: right;
 }
 
-/* with headers/footers also being 1em, make it easier to separate each blockquote */
+/* with headers/footers also being 1em, make it easier to visually separate blockquotes */
 #appendix blockquote{
 	margin-bottom: 2em;
 }
 
-/* headers should be left-justified */
+/* in general, these headers should be left-justified */
 #appendix-b blockquote > header,
 #appendix-c blockquote > header{
 	margin-bottom: 1em;
@@ -74,8 +82,8 @@ is more specific */
 	align-content: space-around;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
-	margin-left: 5em;
-	max-width: 18em;
+	margin-left: 3em;
+	max-width: 20em;
 	text-indent: 0;
 }
 
@@ -100,6 +108,12 @@ is more specific */
 	text-align: initial;
 	width: 10%;
 }
+
+#appendix-b blockquote span[epub|type~="z3998:salutation"]{
+	font-style: italic;
+	font-variant: normal;
+}
+/* end of location-specific */
 
 /* abbreviations */
 abbr.era{
