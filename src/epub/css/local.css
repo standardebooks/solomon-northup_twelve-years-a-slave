@@ -6,6 +6,20 @@
 	text-indent: 0;
 }
 
+#chapter-22 blockquote:first-of-type + p{
+	clear: both;
+	margin-top: 1em;
+}
+
+/* [L. S.] */
+#chapter-22 blockquote:first-of-type > footer > p:first-of-type{
+	clear: left;
+	float: left;
+	text-align: initial;
+	width: 10%;
+	margin-bottom: 1em;
+}
+
 /* third line necessary because later
 	#appendix-b blockquote > header > p:last-of-type
 is more specific */
@@ -75,20 +89,6 @@ is more specific */
 #appendix-b blockquote:nth-of-type(11) > p:last-of-type,
 #appendix-c blockquote:nth-of-type(2) > p:last-of-type{
 	text-indent: 0;
-}
-
-#chapter-22 blockquote + p{
-	clear: both;
-	margin-top: 1em;
-}
-
-/* [L. S.] */
-#chapter-22 blockquote > footer > p:first-of-type{
-	clear: left;
-	float: left;
-	text-align: initial;
-	width: 10%;
-	margin-bottom: 1em;
 }
 
 #appendix-b blockquote:nth-of-type(11) > div,
@@ -197,6 +197,20 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* End full-page epigraphs */
+
+/* images */
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+/* aligned with text */
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+/* end of images */
 
 /* letters */
 [epub|type~="z3998:letter"] header{
