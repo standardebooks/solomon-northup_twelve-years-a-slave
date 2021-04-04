@@ -52,12 +52,13 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">The account of a free black man kidnapped in 1841 and sold into slavery, from which it took him twelve years to free himself again.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;In 1841, &lt;a href="https://standardebooks.org/ebooks/solomon-northup"&gt;Solomon Northup&lt;/a&gt; was a free black man, married with three children and living in upstate New York, when he was tricked into going to Washington DC. There, he was drugged, kidnapped, and sold into slavery, eventually ending up on a plantation in the Red River area of Louisiana. For twelve years he experienced and witnessed the arbitrary beatings and whippings, around-the-clock back-breaking work, and countless other degradations that came with being enslaved in the pre-Civil War south. Through the sympathetic ear of a white man and miraculous timing, he was eventually freed and returned to his home. He then wrote this memoir and did some work in the abolitionist movement before disappearing from the pages of history.&lt;/p&gt;
+			&lt;p&gt;Like &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/linda-brent/incidents-in-the-life-of-a-slave-girl"&gt;Incidents in the Life of a Slave Girl&lt;/a&gt;&lt;/i&gt;, &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/solomon-northup/twelve-years-a-slave"&gt;Twelve Years a Slave&lt;/a&gt;&lt;/i&gt; stands in stark contrast to the bucolic propaganda of the time (some of which can still be heard today) that the enslaved in the south were well-treated, well-provided for, and were made “part of the family.” As a first-hand account, it exposes slavery for what it was: barbaric, dehumanizing, and evil.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/45631</dc:source>
 		<dc:source>https://archive.org/details/twelveyearsslave00nort</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">There was a fair bit of archaic capitalization that had to be corrected.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Twelve_Years_a_Slave</meta>
