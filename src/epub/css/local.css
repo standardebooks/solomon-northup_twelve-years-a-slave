@@ -10,18 +10,10 @@
 	font-variant: small-caps;
 }
 
-#chapter-22 blockquote:first-of-type + p{
-	clear: both;
-	margin-top: 1em;
-}
-
 /* [L. S.] */
-#chapter-22 blockquote:first-of-type > footer > p:first-of-type{
-	clear: left;
+#chapter-22 blockquote:first-of-type > footer > div{
 	float: left;
-	text-align: initial;
-	width: 10%;
-	margin-bottom: 1em;
+	white-space: nowrap;
 }
 
 #chapter-22 hr:last-of-type + p,
@@ -30,9 +22,7 @@
 	text-align: center;
 }
 
-#appendix-a blockquote,
-#appendix-b blockquote,
-#appendix-c blockquote{
+#appendix blockquote{
 	margin-left: 0;
 	margin-right: 0;
 }
