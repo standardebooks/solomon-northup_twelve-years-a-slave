@@ -6,6 +6,10 @@
 	margin-bottom: 1em;
 }
 
+#dedication cite{
+	font-variant: small-caps;
+}
+
 #chapter-22 blockquote:first-of-type + p{
 	clear: both;
 	margin-top: 1em;
