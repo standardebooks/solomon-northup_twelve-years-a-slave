@@ -16,15 +16,13 @@
 	white-space: nowrap;
 }
 
-#chapter-22 hr:last-of-type + p,
-#chapter-22 hr:last-of-type + p + p{
-	margin-bottom: 1em;
-	text-align: center;
-}
-
 #appendix blockquote{
 	margin-left: 0;
 	margin-right: 0;
+}
+
+figure header + img{
+	margin-top: 1em;
 }
 
 /* third selector necessary because later
