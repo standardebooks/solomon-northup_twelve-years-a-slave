@@ -24,6 +24,12 @@
 	margin-bottom: 1em;
 }
 
+#chapter-22 hr:last-of-type + p,
+#chapter-22 hr:last-of-type + p + p{
+	margin-bottom: 1em;
+	text-align: center;
+}
+
 #appendix-a blockquote,
 #appendix-b blockquote,
 #appendix-c blockquote{

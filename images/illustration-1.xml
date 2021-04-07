@@ -8,7 +8,7 @@
 		<creator type="composer">Composer</creator>
 		<encoding>
 			<software>MuseScore 3.6.2</software>
-			<encoding-date>2021-04-03</encoding-date>
+			<encoding-date>2021-04-06</encoding-date>
 			<supports element="accidental" type="yes"/>
 			<supports element="beam" type="yes"/>
 			<supports attribute="new-page" element="print" type="yes" value="yes"/>
@@ -40,14 +40,6 @@
 		<word-font font-family="Edwin" font-size="10"/>
 		<lyric-font font-family="Edwin" font-size="10"/>
 	</defaults>
-	<credit page="1">
-		<credit-type>title</credit-type>
-		<credit-words default-x="459.714" default-y="1050.14" font-family="Times" font-size="16" font-weight="bold" justify="center" valign="top">Roaring River</credit-words>
-	</credit>
-	<credit page="1">
-		<credit-type>subtitle</credit-type>
-		<credit-words default-x="459.714" default-y="992" font-family="Times" justify="center" valign="top">A Refrain of the Red River Plantation</credit-words>
-	</credit>
 	<part-list>
 		<score-part id="P1">
 			<part-name>Piano</part-name>
@@ -72,7 +64,7 @@
 						<left-margin>0.00</left-margin>
 						<right-margin>0.00</right-margin>
 					</system-margins>
-					<top-system-distance>170.00</top-system-distance>
+					<top-system-distance>70.00</top-system-distance>
 				</system-layout>
 			</print>
 			<attributes>
@@ -712,12 +704,13 @@
 			</note>
 			<direction placement="above">
 				<direction-type>
-					<words relative-x="12.00" relative-y="11.00">Fine</words>
+					<words default-y="4.92" relative-x="11.34" relative-y="17.72">Fine</words>
 				</direction-type>
 				<sound fine="yes"/>
 			</direction>
 			<barline location="right">
 				<bar-style>light-heavy</bar-style>
+				<fermata relative-y="2.70" type="upright"/>
 				<repeat direction="backward"/>
 			</barline>
 		</measure>
