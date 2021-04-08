@@ -16,11 +16,6 @@
 	white-space: nowrap;
 }
 
-#appendix blockquote{
-	margin-left: 0;
-	margin-right: 0;
-}
-
 figure header + img{
 	margin-top: 1em;
 }
@@ -43,6 +38,8 @@ is more specific than second selector */
 /* with headers/footers also being 1em, make it easier to visually separate blockquotes */
 #appendix blockquote{
 	margin-bottom: 2em;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 /* in general, these headers should be left-justified */
