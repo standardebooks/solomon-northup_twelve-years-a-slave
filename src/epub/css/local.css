@@ -205,16 +205,16 @@ section[epub|type~="epigraph"] > *{
 /* End full-page epigraphs */
 
 /* images */
+figure{
+	break-inside: avoid;
+	margin: 1em auto;
+	text-align: center;
+}
+
 figure img{
 	display: block;
 	margin: auto;
 	max-width: 100%;
-}
-
-/* aligned with text */
-figure{
-	margin: 1em auto;
-	text-align: center;
 }
 /* end of images */
 
