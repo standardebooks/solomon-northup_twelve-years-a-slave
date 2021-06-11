@@ -112,7 +112,7 @@ is more specific than second selector */
 /* end of location-specific */
 
 /* abbreviations */
-abbr.era{
+[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 /* end of abbreviations */
