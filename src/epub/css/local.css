@@ -74,8 +74,8 @@ is more specific than second selector */
 
 /* set of signatures set in two columns */
 #appendix-b blockquote:nth-of-type(3) > div{
-	display: flex;
 	align-content: space-around;
+	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
 	margin-left: 3em;
@@ -168,9 +168,9 @@ section[epub|type~="dedication"] > *{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -241,8 +241,8 @@ footer{
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 /* end of letters */
 
@@ -260,8 +260,8 @@ footer{
 [epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:song"] p > span + br,
@@ -270,17 +270,17 @@ footer{
 }
 
 p span.i2{
-	text-indent: -1em;
 	padding-left: 3em;
+	text-indent: -1em;
 }
 
 p span.i4{
-	text-indent: -1em;
 	padding-left: 5em;
+	text-indent: -1em;
 }
 
 p span.i8{
-	text-indent: -1em;
 	padding-left: 9em;
+	text-indent: -1em;
 }
 /* end of poem/verse/song */
