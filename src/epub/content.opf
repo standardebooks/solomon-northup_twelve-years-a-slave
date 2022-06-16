@@ -30,7 +30,7 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Twelve Years a Slave</dc:title>
 		<meta property="file-as" refines="#title">Twelve Years a Slave</meta>
-		<meta property="se:alternate-title" refines="#title">12 Years a Slave</meta>
+		<meta property="dcterms:alternate" refines="#title">12 Years a Slave</meta>
 		<dc:subject id="subject-1">African Americans -- Biography</dc:subject>
 		<dc:subject id="subject-2">Slaves -- United States -- Biography</dc:subject>
 		<dc:subject id="subject-3">Slaves' writings, American</dc:subject>
