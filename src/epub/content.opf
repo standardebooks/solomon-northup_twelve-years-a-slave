@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/solomon-northup/twelve-years-a-slave</dc:identifier>
 		<dc:date>2021-04-07T19:45:28Z</dc:date>
 		<meta property="dcterms:modified">2021-04-07T19:45:28Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -49,8 +50,8 @@
 		<meta property="term" refines="#subject-5">Unknown</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
-		<meta property="se:subject">Memoir</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Memoir</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">The account of a free black man kidnapped in 1841 and sold into slavery, from which it took twelve years to free himself.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In 1841, &lt;a href="https://standardebooks.org/ebooks/solomon-northup"&gt;Solomon Northup&lt;/a&gt; was a free black man, married with three children and living in upstate New York, when he was tricked into going to Washington DC. There, he was drugged, kidnapped, and sold into slavery, eventually ending up on a plantation in the Red River area of Louisiana. For twelve years he experienced and witnessed the arbitrary beatings and whippings, around-the-clock back-breaking work, and countless other degradations that came with being enslaved in the antebellum south. Through the sympathetic ear of a white man and with miraculous timing, he was eventually freed and returned home. He then wrote this memoir and contributed to the abolitionist movement before disappearing from the pages of history.&lt;/p&gt;
@@ -59,39 +60,40 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/45631</dc:source>
 		<dc:source>https://archive.org/details/twelveyearsslave00nort</dc:source>
-		<meta property="se:production-notes">There was a fair bit of archaic capitalization that had to be modernized.</meta>
-		<meta property="se:word-count">81151</meta>
-		<meta property="se:reading-ease.flesch">66.98</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Twelve_Years_a_Slave</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/solomon-northup_twelve-years-a-slave</meta>
+		<meta property="schema:wordCount">81151</meta>
+		<meta property="schema:educationalLevel">66.98</meta>
+		<link href="https://en.wikipedia.org/wiki/Twelve_Years_a_Slave" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/solomon-northup_twelve-years-a-slave" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Solomon Northup</dc:creator>
 		<meta property="file-as" refines="#author">Northup, Solomon</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Solomon_Northup</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50022819</meta>
+		<link href="https://en.wikipedia.org/wiki/Solomon_Northup" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50022819.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="editor-1">David Wilson</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Wilson, David</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/David_Wilson_(New_York_politician)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n86832510</meta>
+		<link href="https://en.wikipedia.org/wiki/David_Wilson_(New_York_politician)" refines="#editor-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86832510.html" refines="#editor-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">John Simpson</dc:contributor>
 		<meta property="file-as" refines="#artist">Simpson, John</meta>
-		<meta property="se:name.person.full-name" refines="#artist">John Philip Simpson</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Simpson_(artist)</meta>
+		<meta property="schema:alternateName" refines="#artist">John Philip Simpson</meta>
+		<link href="https://en.wikipedia.org/wiki/John_Simpson_(artist)" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Richard J. Shiffer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shiffer, Richard J.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -102,7 +104,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
