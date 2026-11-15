@@ -73,20 +73,22 @@ is more specific than second selector */
 }
 
 /* set of signatures set in two columns */
-#appendix-b blockquote:nth-of-type(3) > div{
-	align-content: space-around;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-	margin-left: 3em;
-	max-width: 20em;
-	text-indent: 0;
-}
+@supports(display: flex){
+	#appendix-b blockquote:nth-of-type(3) > div{
+		align-content: space-around;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+		margin-left: 3em;
+		max-width: 20em;
+		text-indent: 0;
+	}
 
-/* each signatures should take up half of space */
-#appendix-b blockquote:nth-of-type(3) > div > p{
-	text-indent: 0;
-	width: 50%;
+	/* each signatures should take up half of space */
+	#appendix-b blockquote:nth-of-type(3) > div > p{
+		text-indent: 0;
+		width: 50%;
+	}
 }
 
 /* lines in which [L. S.] appears */
